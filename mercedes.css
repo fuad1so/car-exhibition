@@ -1,0 +1,74 @@
+.content {
+width: 90%;
+height: 600px;
+background-color: transparent;
+border: solid 13px white;
+right: 15%;
+position: relative;
+margin-top: 50px;
+border-radius: 2%;
+}
+
+.circle1 {
+margin-left: 85px;
+margin-top: 20px;
+}
+.circle2 {
+    margin-left: 250px;
+    }
+    .circle3 {
+        
+        margin-left: 445px;
+       
+        }
+
+        .circle {
+            width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        background-color: rgb(83, 83, 83);
+        box-shadow: 8px 8px 10px ;
+        
+        }
+
+
+.rectangle {
+width: 0px;
+height: 90px;
+position: relative;
+top: 60px;
+left: 175px;
+border-radius: 10px;
+border: solid white 0px ;
+background-color: dodgerblue;
+transition: all 0.5s ease-out;
+z-index: -10;
+text-align: center;
+justify-content: center;
+}
+
+.circle:hover .rectangle {
+width: 525px;
+left: 200px;
+border: solid white 4px ;
+
+}
+.circle p {
+position: absolute;
+margin-top: 70px;
+margin-left: 26px;
+color: white;
+font-size: 30px;
+}
+.rectangle p {
+font-size: 5px;
+color: transparent;
+transition: all 0.5s ease-in-out;
+margin-top: 5px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.circle:hover .rectangle p {
+color: white;
+font-size: 20px;
+margin-top: 30px;
+}

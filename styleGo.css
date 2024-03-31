@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(36, 36, 36);
+    
+    }
+        
+.contact-form{
+width: 50%;
+margin: 20px;
+padding: 20px;
+background-color: rgb(58, 58, 58);
+border-radius: 10px;
+}
+.contact-form h2 {
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+
+
+
+}
+.contact-form form {
+display: flex;
+flex-direction: column;
+
+
+
+
+
+}
+.contact-form label {
+margin-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: rgb(213, 213, 213);
+
+
+}
+.contact-form input,
+.contact-form textarea {
+padding: 5px;
+
+
+
+}
+.contact-form input[type="submit"] {
+background-color: black;
+color: white;
+cursor: pointer;
+font-size: larger;
+
+}
+.contact-form input[type="submit"]:hover {
+background-color: dodgerblue;
+color: black;
+font-weight: bolder;
+
+}
+.container-aboutUs {
+width: 70%;
+margin: 20px 10px;
+padding: 20px;
+background-color: rgb(207, 207, 207);
+border-radius: 10px;
+}
+.container-aboutUs h2 {
+text-align: center;
+color: rgb(0, 0, 255);
+
+
+
+
+}
+.container-aboutUs p {
+font-size: 20px;
+line-height: 1.8;
+margin-bottom: 15px;
+background-image: "img/picture1.jpg";
+
+
+}
+
+.container-aboutUs img {
+width: 600px;
+height: 500px;
+margin-left: 125px;
+border-radius: 2%;
+}
